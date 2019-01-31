@@ -18,6 +18,7 @@ public class Main
     	Employee employee3= new Employee("Abram hindle", 2, 70000, address3);
     }
     
+    // This should NOT be part of the Main class
     public static String capitalizeName(String name) {
     	String capName = "";
     	String[] tmpString;
